@@ -19,7 +19,7 @@ public class Conta {
 	
 	
 	public void deposita(double valor) {
-		this.saldo = this.saldo + valor;   //pode utilizar o "this" para dixer que esta invocando essa conta expecifica.
+		this.saldo = this.saldo + valor;   //pode utilizar o "this"
                                   //exemplo(this.saldo=this.saldo + valor;		
 	}
 	public boolean saca(double valor) {
